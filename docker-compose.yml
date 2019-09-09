@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  docker-web-app:
+    image: docker-web-app:1.0.0-SNAPSHOT
+    build: .
+    ports:
+      - 8090:8080
